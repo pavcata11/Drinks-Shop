@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dimitar Todor">
+    <link rel="stylesheet" href="styles/catalog.css">
+    <script src="scrypt/whiskey.js"></script>
+    <title>Jack Daniel's</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="nav">
+            <li><a href="Catalog.html">Catalog</a></li>
+        </nav>
+        <h1>Whiskey shop</h1>
+    </div>
+
+    <div>
+        <img class="productimag" src="images/redlabel.jpg" alt="redlabel">
+        <h2>Johnnie Walker Red Label</h2>
+        <p class="price">Price: $17.99</p>
+    </div>
+    <ul>
+        <li>Alcohol degree: From 35 ° to 45 °</li>
+        <li>Origin: Kilmarnock, East Ayrshire, Scotland</li>
+        <li>Manufacturer: Diageo</li>
+        <li> Whiskey type: Scotch whisky</li>
+        <li>Volume: 700 ml.</li>
+    </ul>
+    <p class="producttext">Johnnie Walker is a brand of Scotch whisky now owned by Diageo that originated in the Scottish burgh of Kilmarnock in East Ayrshire. The brand was first established by grocer John Walker. It is the most widely distributed brand of blended Scotch whisky
+        in the world, sold in almost every country, with annual sales of the equivalent of over 223.7 million 700 ml bottles in 2016 (156.6 million litres).Johnnie Walker is the official whisky of Formula One, and is a sponsor of two F1 teams McLaren
+        and Racing Point. Johnnie Walker is also the title namesake for the F1 Grand Prix race in Spa, Belgium. Johnnie Walker sponsored the Johnnie Walker Classic, an Asia-Pacific golf tournament, up to 2009 and the Johnnie Walker Championship at Gleneagles,
+        a golf tournament in Scotland up to 2013. Diageo sold the Gleneagles Hotel and Golf Course, the site of the tournament, mid-2015 to focus on its core business.
+    </p>
+
+    <div class="border_content">
+        <form>
+            <h2> Make an order</h2>
+            <label for="fname">Name:</label>
+            <input type="text" id="Name"><br><br>
+            <label for="adress">Адрес:</label>
+            <input type="text" id="adress" name="adress"><br><br>
+        </form>
+        <div>
+            <button class="buttonsOnProduct" onclick="order()">Order</button>
+        </div>
+    </div>
+
+    <div id="myDIV" class="border_comment">
+        <h2>Create comment</h2>
+        Name: <input type="text" id="Comment" placeholder="Name..."> Comment: <input type="text" id="myInput" placeholder="Comment...">
+        <button class="buttonsOnProduct" onclick="newElement()">Create</button>
+    </div>
+    <ul id="myUL">
+        <li>Ivan Commented: Whiskey is not for drunkenness, but for optimism</li>
+        <li>Dimitar Commented: All geniuses are drunkards!</li>
+        <li>Georgi Commented: I'm not drunk, I'm resting.</li>
+        <li>Petar Commented: Alcoholism is treatable and drunkenness is not!</li>
+    </ul>
+
+    <footer>
+        <p>Author: Dimitar Todorov<br>
+            <a href="mailto:hege@example.com">dimitartodorov@abv.bg</a>
+        </p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dimitar Todor">
+    <link rel="stylesheet" href="styles/catalog.css">
+    <script src="scrypt/whiskey.js"></script>
+    <title>Jack Daniel's</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="nav">
+            <li><a href="Catalog.html">Catalog</a></li>
+        </nav>
+        <h1>Whiskey shop</h1>
+    </div>
+
+    <div>
+        <img class="productimag" src="images/paddy.jpg" alt="paddy">
+        <h2>Paddy Whiskey</h2>
+        <p class="price">Price: $13.99</p>
+    </div>
+    <ul>
+        <li>Alcohol degree: From 35 ° to 45 °</li>
+        <li>Origin: Ireland</li>
+        <li>Manufacturer: Irish Distillers (Pernod Ricard)</li>
+        <li> Whiskey type: Bourbon</li>
+        <li>Volume: 700 ml.</li>
+    </ul>
+    <p class="producttext">Paddy is a brand of blended Irish whiskey produced by Irish Distillers, at the Midleton distillery in County Cork, on behalf of Sazerac, a privately held American company. Irish distillers owned the brand until its sale to Sazerac in 2016. As of 2016,
+        Paddy is the fourth largest selling Irish whiskey in the World. Paddy whiskey is distilled three times and matured in oak casks for up to seven years. Compared with other Irish whiskeys, Paddy has a comparatively low pot still content and a high
+        malt content in its blend. Jim Murray, author of the Whiskey bible, has rated Paddy as "one of the softest of all Ireland's whiskeys".
+    </p>
+
+    <div class="border_content">
+        <form>
+            <h2> Make an order</h2>
+            <label for="fname">Name:</label>
+            <input type="text" id="Name"><br><br>
+            <label for="adress">Адрес:</label>
+            <input type="text" id="adress" name="adress"><br><br>
+        </form>
+        <div>
+            <button class="buttonsOnProduct" onclick="order()">Order</button>
+        </div>
+    </div>
+
+    <div id="myDIV" class="border_comment">
+        <h2>Create comment</h2>
+        Name: <input type="text" id="Comment" placeholder="Name..."> Comment: <input type="text" id="myInput" placeholder="Comment...">
+        <button class="buttonsOnProduct" onclick="newElement()">Create</button>
+    </div>
+    <ul id="myUL">
+        <li>Ivan Commented: Whiskey is not for drunkenness, but for optimism</li>
+        <li>Dimitar Commented: All geniuses are drunkards!</li>
+        <li>Georgi Commented: I'm not drunk, I'm resting.</li>
+        <li>Petar Commented: Alcoholism is treatable and drunkenness is not!</li>
+    </ul>
+
+    <footer>
+        <p>Author: Dimitar Todorov<br>
+            <a href="mailto:hege@example.com">dimitartodorov@abv.bg</a>
+        </p>
+    </footer>
+</body>
+
+</html>

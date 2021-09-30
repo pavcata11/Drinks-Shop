@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dimitar Todor">
+    <link rel="stylesheet" href="styles/catalog.css">
+    <script src="scrypt/whiskey.js"></script>
+    <title>Jack Daniel's</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="nav">
+            <li><a href="Catalog.html">Catalog</a></li>
+        </nav>
+        <h1>Whiskey shop</h1>
+    </div>
+
+    <div>
+        <img class="productimag" src="images/jameson.jpg" alt="jameson">
+        <h2>Jameson Irish Whiskey</h2>
+        <p class="price">Price: $15.99</p>
+    </div>
+    <ul>
+        <li>Alcohol degree: From 35 ° to 45 °</li>
+        <li>Origin: Cork (originally Dublin), Ireland</li>
+        <li>Manufacturer: Irish Distillers (Pernod Ricard)</li>
+        <li> Whiskey type: Bourbon</li>
+        <li>Volume: 700 ml.</li>
+    </ul>
+    <p class="producttext">Jameson is produced from a blend of grain whiskey and single pot still whiskey, which uses a mixture of malted and unmalted or "green" Irish barley, all sourced from within a fifty-mile radius around the distillery in Cork. The barley is dried in
+        a closed kiln fired by natural gas (formerly anthracite coal). This is in contrast to the traditional method used in some Scotch whisky distilleries, which fire the kiln with peat, adding a distinctive peat flavour.n 2018 Jameson 18-Year-Old Bow
+        Street won Best Irish Blended Whiskey RRP of €60/$72 or more at the Irish Whiskey Awards.
+    </p>
+
+    <div class="border_content">
+        <form>
+            <h2> Make an order</h2>
+            <label for="fname">Name:</label>
+            <input type="text" id="Name"><br><br>
+            <label for="adress">Адрес:</label>
+            <input type="text" id="adress" name="adress"><br><br>
+        </form>
+        <div>
+            <button class="buttonsOnProduct" onclick="order()">Order</button>
+        </div>
+    </div>
+
+    <div id="myDIV" class="border_comment">
+        <h2>Create comment</h2>
+        Name: <input type="text" id="Comment" placeholder="Name..."> Comment: <input type="text" id="myInput" placeholder="Comment...">
+        <button class="buttonsOnProduct" onclick="newElement()">Create</button>
+    </div>
+    <ul id="myUL">
+        <li>Ivan Commented: Whiskey is not for drunkenness, but for optimism</li>
+        <li>Dimitar Commented: All geniuses are drunkards!</li>
+        <li>Georgi Commented: I'm not drunk, I'm resting.</li>
+        <li>Petar Commented: Alcoholism is treatable and drunkenness is not!</li>
+    </ul>
+
+    <footer>
+        <p>Author: Dimitar Todorov<br>
+            <a href="mailto:hege@example.com">dimitartodorov@abv.bg</a>
+        </p>
+    </footer>
+</body>
+
+</html>

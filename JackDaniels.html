@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dimitar Todor">
+    <link rel="stylesheet" href="styles/catalog.css">
+    <script src="scrypt/whiskey.js"></script>
+    <title>Jack Daniel's</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="nav">
+            <li><a href="Catalog.html">Catalog</a></li>
+        </nav>
+        <h1>Whiskey shop</h1>
+    </div>
+
+    <div>
+        <img class="productimag" src="images/jack-daniels.jpg" alt="jack-daniels">
+        <h2>Whiskey Jack Daniel's Master Distiller № 5 700ml</h2>
+        <p class="price">Price: $19.99</p>
+    </div>
+    <ul>
+        <li>Alcohol degree: From 35 ° to 45 °</li>
+        <li>Origin: USA</li>
+        <li>Manufacturer: Jack Daniel's</li>
+        <li> Whiskey type: Bourbon</li>
+        <li>Volume: 700 ml.</li>
+    </ul>
+    <p class="producttext">Jack Daniel's is a brand of Tennessee whiskey and the top-selling American whiskey in the world. It is produced in Lynchburg, Tennessee, by the Jack Daniel Distillery, which has been owned by the Brown–Forman Corporation since 1956. Jack Daniel's
+        home county of Moore is a dry county, so the product is not available for purchase at stores or restaurants within the county. Jack Daniel's and Cola 375mL can The product meets the regulatory criteria for classification as a straight bourbon,
+        though the company disavows this classification. It markets the liquor simply as Tennessee whiskey rather than as Tennessee bourbon. As defined in the North American Free Trade Agreement, Tennessee whiskey is classified as a straight bourbon authorized
+        to be produced in the state of Tennessee. Tennessee law (57-2-106) further requires most producers of Tennessee whiskey to filter the spirit through charcoal made from maple prior to aging, in addition to meeting the above requirements (the "Lincoln
+        County Process"). Packaged in square bottles, Jack Daniel's "Black Label" Tennessee whiskey sold 12.5 million cases in the 2017 fiscal year, which ended on April 30, 2017.[clarification needed][11] Other brand variations, such as Tennessee Honey,
+        Gentleman Jack, and Tennessee Fire, added another 2.9 million cases to sales. Sales of an additional 800,000 equivalent cases in ready-to-drink (RTD) products brought the fiscal year total to more than 16.1 million equivalent adjusted cases for
+        the entire Jack Daniel's family of brands.
+    </p>
+
+    <div class="border_content">
+        <form>
+            <h2> Make an order</h2>
+            <label for="fname">Name:</label>
+            <input type="text" id="Name"><br><br>
+            <label for="adress">Адрес:</label>
+            <input type="text" id="adress" name="adress"><br><br>
+        </form>
+        <div>
+            <button class="buttonsOnProduct" onclick="order()">Order</button>
+        </div>
+    </div>
+
+    <div id="myDIV" class="border_comment">
+        <h2>Create comment</h2>
+        Name: <input type="text" id="Comment" placeholder="Name..."> Comment: <input type="text" id="myInput" placeholder="Comment...">
+        <button class="buttonsOnProduct" onclick="newElement()">Create</button>
+    </div>
+    <ul id="myUL">
+        <li>Ivan Commented: Whiskey is not for drunkenness, but for optimism</li>
+        <li>Dimitar Commented: All geniuses are drunkards!</li>
+        <li>Georgi Commented: I'm not drunk, I'm resting.</li>
+        <li>Petar Commented: Alcoholism is treatable and drunkenness is not!</li>
+    </ul>
+
+    <footer>
+        <p>Author: Dimitar Todorov<br>
+            <a href="mailto:hege@example.com">dimitartodorov@abv.bg</a>
+        </p>
+    </footer>
+</body>
+
+</html>
